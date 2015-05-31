@@ -47,7 +47,6 @@ p {
   width: 1000px;
   padding: 5%;
   border-radius: 10px;
-  background: rgba(240,230,220);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
   text-align:center;
 }

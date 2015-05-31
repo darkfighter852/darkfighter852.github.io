@@ -1,18 +1,11 @@
 body
 {
-
-
- 
- 
- 
   background: -webkit-linear-gradient(90deg, #525252 10%, #3d72b4 90%); /* Chrome 10+, Saf5.1+ */
   background:    -moz-linear-gradient(90deg, #525252 10%, #3d72b4 90%); /* FF3.6+ */
   background:     -ms-linear-gradient(90deg, #525252 10%, #3d72b4 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #525252 10%, #3d72b4 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #525252 10%, #3d72b4 90%); /* W3C */
-        
-  text-align:center;
-        
+  text-align:center;      
 }
 #e1
 {
@@ -28,7 +21,7 @@ body
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
-			 font-size:200%;
+	font-size:200%;
 }
 #e2
 {
@@ -57,8 +50,7 @@ body
 	font-size:50px;
 }
 
-
-#tit .button {
+.button {
   display: inline-block;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -80,13 +72,12 @@ body
 }
 
 
-#tit .button:hover {
+.button:hover {
   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
 }
 
 #soon h1
 {
-
   color: white;
   text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
@@ -106,4 +97,13 @@ body
 {
 	position:relative;
 	top:550px;
+}
+a
+{	
+	color:white;
+	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+}
+a:hover
+{
+	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
 }
