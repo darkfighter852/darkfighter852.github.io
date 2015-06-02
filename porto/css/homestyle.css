@@ -1,0 +1,84 @@
+body
+{
+background: rgb(0,0,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(0,0,0,1) 10%, rgba(231,76,60,1) 90%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,rgba(0,0,0,1)), color-stop(90%,rgba(231,76,60,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 10%,rgba(231,76,60,1) 90%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,1) 10%,rgba(231,76,60,1) 90%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,1) 10%,rgba(231,76,60,1) 90%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,1) 10%,rgba(231,76,60,1) 90%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#e74c3c',GradientType=0 ); /* IE6-9 */
+
+
+}
+.hed
+{
+	height:50px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	background-color:red;
+}
+.conte
+{
+	margin-top:55px;
+	height:2000px;
+	overflow:hidden;
+}
+#hom
+{
+	
+	height:450px;
+	background-image:url("../img/black.jpg");
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+#hom:hover
+{
+	background-image:url("../img/red.jpg");
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+#welc
+{
+	width:100%;
+	height:auto;
+	color:white;
+	position:relative;
+	top:40%;
+}
+#welc img
+{
+	width:100%;
+	height:auto;
+}
+#skil
+{
+	color:white;
+	text-align:center;
+	padding-top:30px;
+}
+#fd
+{
+	float:left;
+	width:400px;
+}
+#wpd
+{
+	float:left;
+	width:400px;
+}
+#rd
+{
+	float:left;
+	width:400px;
+}
+.foot
+{
+	width:100%;
+	height:200px;
+	background-color:black;
+	color:white;
+	text-align:center;
+}
