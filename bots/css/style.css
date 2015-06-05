@@ -1,7 +1,29 @@
-#tte
+.page-header
 {
-	background-color:blue;
-	width:1000px;
-	height:300px;
-	
+background-color:#FFCC66;
+}
+.page-header img
+{
+	width:40px;
+	height:auto;
+}
+.container
+{
+	background-color:#F0F0F0;
+}
+.well.well-sm
+{
+	background-color:#FFCC00;
+}
+.col-sm-8
+{
+	text-align:center;
+}
+#footer
+{
+text-align:center;
+}
+#ca
+{
+	text-align:center;
 }

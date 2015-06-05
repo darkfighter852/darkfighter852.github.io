@@ -10,13 +10,13 @@
     <!-- Bootstrap -->
 	<link href="css/style.css" rel="stylesheet">
 	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,28 +27,72 @@
   </head>
   <body>
   <div class="container">
-    <div class="jumbotron">
-    <h1>My First Bootstrap Page</h1>
-    <p>Resize this responsive page to see the effect!</p> 
+    <div class="page-header">
+	
+	<h2>CallMed<img src="./img/logo.png"/></h2>
+	</div>
+	<nav class="navbar navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">CallMed</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About Our Company</a></li>
+        <li><a href="#">Introduction Guide</a></li> 
+        <li><a href="#">Contact Us</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+	<div class="row">
+    <div class="col-sm-4" id="ca">Ut quis est eu nisi varius condimentum nec viverra magna. Donec vel venenatis sapien. Nullam placerat condimentum ullamcorper. Duis ut sem ut erat eleifend tincidunt. Sed vitae est quis tortor consequat semper et eu libero. Donec fermentum, ipsum sed rhoncus auctor, nulla erat consectetur dui, a mattis ligula metus non libero. Aliquam eleifend tincidunt velit eget lacinia. Sed molestie ut sapien nec rutrum. Aliquam erat volutpat.</div>
+    <div class="col-sm-8"><img src="./img/man.png"/></div>
   </div>
   <div class="row">
     <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <h3>The Benefits</h3>
+      <ul>
+	  <li>Fast Service</li>
+	  <li>Great Helpdesk</li>
+	  <li>Pay Safe</li>
+	  <li>Many Telephone Providers</li>
+	  </ul>
     </div>
     <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <h3>Starter Packs</h3>
+      <ul>
+	  <li>Student</li>
+	  <li>Simple</li>
+	  <li>Business</li>
+	  </ul>
     </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	<div class="col-sm-4">
+      <h3>Sign Up</h3>
+	  <form role="form">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
     </div>
   </div>
 </div>
+<div id="footer">
+  <div class="container">
+    <p class="text-muted">&copy; 2015 Desing By Gogu Cosmin<br> Template By somewebsite.com</a></p>
+  </div>
+</div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
