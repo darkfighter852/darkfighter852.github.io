@@ -14,15 +14,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
 .side
 {
 	font-family: 'Roboto', sans-serif;
-	opacity:none;
+	opacity:0.8;
 	width:298px;
 	margin-left:70px;
 	height:100%;
 	font: normal normal bold 39px/2 "Times New Roman", Times, serif;
-	color: #2bc4ff;
+	/*color: #2bc4ff;*/
+	color:#0099FF;
 	text-overflow: ellipsis;
 	word-spacing: 1px;
-	text-shadow: 4px 4px 6px rgba(0,0,0,0.5) ;
+	text-shadow: 4px 4px 7px rgba(0,0,0,0.5) ;
 	border-radius: 25px 25px 25px 25px;
 	border-left:1px solid #2bc4ff;
 	border-right:1px solid #2bc4ff;
@@ -72,6 +73,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
     text-decoration: underline;
 }
 
+.side img
+{
+	width:50px;
+	height:auto;
+}
 
 
 .CSS_slideshow {
