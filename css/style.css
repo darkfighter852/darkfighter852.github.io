@@ -2,14 +2,14 @@
 {
 	width:100%;
 	height:880px;
-background: rgba(242,246,248,1);
-background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(181,198,208,1) 62%, rgba(224,239,249,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(27%, rgba(216,225,231,1)), color-stop(62%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
-background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(181,198,208,1) 62%, rgba(224,239,249,1) 100%);
-background: -o-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(181,198,208,1) 62%, rgba(224,239,249,1) 100%);
-background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(181,198,208,1) 62%, rgba(224,239,249,1) 100%);
-background: linear-gradient(to bottom, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(181,198,208,1) 62%, rgba(224,239,249,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0 );
+	background: rgba(242,246,248,1);
+	background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(181,198,208,1) 62%, rgba(224,239,249,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(27%, rgba(216,225,231,1)), color-stop(62%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
+	background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(181,198,208,1) 62%, rgba(224,239,249,1) 100%);
+	background: -o-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(181,198,208,1) 62%, rgba(224,239,249,1) 100%);
+	background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(181,198,208,1) 62%, rgba(224,239,249,1) 100%);
+	background: linear-gradient(to bottom, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(181,198,208,1) 62%, rgba(224,239,249,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0 );
 }
 .side
 {
@@ -57,19 +57,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
 	left:500px;
 }
 
-.side a:link {
+.side a:link 
+{
     text-decoration: none;
 }
 
-.side a:visited {
+.side a:visited 
+{
     text-decoration: none;
 }
 
-.side a:hover {
+.side a:hover 
+{
     text-decoration: underline;
 }
 
-.side a:active {
+.side a:active 
+{
     text-decoration: underline;
 }
 
@@ -80,7 +84,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
 }
 
 
-.CSS_slideshow {
+.CSS_slideshow 
+{
     display: block;
     width: 600px;
     height: 425px;
@@ -92,14 +97,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
     user-select: none;
     text-space-collapse: trim-inner;
 }
-.CSS_slideshow[data-show-indicators="true"][data-indicators-position="in"] {
+.CSS_slideshow[data-show-indicators="true"][data-indicators-position="in"]
+ {
     -webkit-margin-after: -25px;
 }
-.CSS_slideshow[data-animation-style] {
+.CSS_slideshow[data-animation-style] 
+{
 	transition-timing-function: ease-in-out;
 }
 	/* Wrapper */
-	.CSS_slideshow_wrapper {
+	.CSS_slideshow_wrapper 
+	{
 		display: block;
 		width: 600px;
 		height: 400px;
@@ -109,12 +117,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
 		text-align: center;
 		
 	}
-	.CSS_slideshow[data-animation-style] .CSS_slideshow_wrapper {
+	.CSS_slideshow[data-animation-style] .CSS_slideshow_wrapper 
+	{
 		transition-duration: inherit;
 		transition-timing-function: inherit;
 	}
 		/* Indicators */
-		.CSS_slideshow[data-show-indicators="true"] input {
+		.CSS_slideshow[data-show-indicators="true"] input 
+		{
             width: 10px;
             height: 10px;
             -ms-transform: scale(1);
@@ -124,15 +134,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
             -webkit-appearance: none;
             outline: none;
 		}
-        .CSS_slideshow[data-animation-style] input {
+        .CSS_slideshow[data-animation-style] input 
+		{
             transition-duration: inherit;
             transition-timing-function: inherit;
         }
-		.CSS_slideshow[data-show-indicators="true"] input:checked {
+		.CSS_slideshow[data-show-indicators="true"] input:checked 
+		{
             -ms-transform: scale(1.25);
             -moz-transform: scale(0.9);
 		}
-		.CSS_slideshow[data-show-indicators="true"] input:after {
+		.CSS_slideshow[data-show-indicators="true"] input:after 
+		{
 		    content: '';
 			display: block;
             position: absolute;
@@ -147,43 +160,52 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
             transition-timing-function: inherit;
             z-index: 4;
 		}
-		.CSS_slideshow[data-show-indicators="true"][data-indicators-position="under"] input:after {
+		.CSS_slideshow[data-show-indicators="true"][data-indicators-position="under"] input:after
+		{
             top: -2px;
             background: rgba(0, 0, 0, 0);
             border-color: rgb(0, 0, 0);
 		}
-		.CSS_slideshow[data-show-indicators="true"][data-indicators-position="in"] input:after {
+		.CSS_slideshow[data-show-indicators="true"][data-indicators-position="in"] input:after 
+		{
             top: -35px;
             box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.25), 0 0 2px rgba(0, 0, 0, 0.25);
             background: rgba(235, 235, 235, 0);
             border-color: rgb(235, 235, 235);
 		}
-		.CSS_slideshow[data-show-indicators="true"] input:checked:after {
+		.CSS_slideshow[data-show-indicators="true"] input:checked:after
+		{
 		    transform: scale(1.25);
 		}
-		.CSS_slideshow[data-show-indicators="true"][data-indicators-position="under"] input:checked:after {
+		.CSS_slideshow[data-show-indicators="true"][data-indicators-position="under"] input:checked:after 
+		{
             background: rgb(0, 0, 0)
 		}
-		.CSS_slideshow[data-show-indicators="true"][data-indicators-position="in"] input:checked:after {
+		.CSS_slideshow[data-show-indicators="true"][data-indicators-position="in"] input:checked:after 
+		{
             box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
             background: rgb(235, 235, 235);
 		}
-		.CSS_slideshow:not([data-show-indicators="true"]) input {
+		.CSS_slideshow:not([data-show-indicators="true"]) input 
+		{
 			display: none;
 		}
 		/* Slides */
-		.CSS_slideshow label {
+		.CSS_slideshow label 
+		{
 			display: inline-block;
 			width: 100%;
 			height: 100%;
 			position: absolute;
 			top: 0;
 		}
-		.CSS_slideshow[data-animation-style] label {
+		.CSS_slideshow[data-animation-style] label 
+		{
 			transition-duration: inherit;
 			transition-timing-function: inherit;
 		}
-		.CSS_slideshow[data-animation-style="slide"] label {
+		.CSS_slideshow[data-animation-style="slide"] label 
+		{
 			transition-property: left;
 		}
 		.CSS_slideshow label img {
@@ -195,16 +217,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
 			left: -100%;
 		}
 		/* Slides on the right */
-		.CSS_slideshow input:checked ~ label {
+		.CSS_slideshow input:checked ~ label 
+		{
 			left: 100%;
 		}
 		/* Active slide */
-		.CSS_slideshow input:checked + label {
+		.CSS_slideshow input:checked + label 
+		{
 			left: 0;
 		}
 			/* Prev/next arrows */
 			.CSS_slideshow[data-show-buttons="true"] label:before,
-			.CSS_slideshow[data-show-buttons="true"] label:after {
+			.CSS_slideshow[data-show-buttons="true"] label:after 
+			{
 				display: block;
 				position: absolute;
 				width: 60px;
@@ -221,59 +246,71 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
 				cursor: pointer;
 			}
 			.CSS_slideshow[data-show-buttons="true"][data-animation-style] label:before,
-			.CSS_slideshow[data-show-buttons="true"][data-animation-style] label:after {
+			.CSS_slideshow[data-show-buttons="true"][data-animation-style] label:after 
+			{
 				transition-duration: inherit;
 				transition-timing-function: inherit;
 			}
 			.CSS_slideshow[data-show-buttons="true"][data-animation-style="slide"] label:before,
-			.CSS_slideshow[data-show-buttons="true"][data-animation-style="slide"] label:after {
+			.CSS_slideshow[data-show-buttons="true"][data-animation-style="slide"] label:after 
+			{
 				transition-property: left, right;
 			}
 			.CSS_slideshow[data-show-buttons="true"] label:hover:before,
-			.CSS_slideshow[data-show-buttons="true"] label:hover:after {
+			.CSS_slideshow[data-show-buttons="true"] label:hover:after 
+			{
 				/* Styling */
 				background: rgb(245, 245, 245);
 			}
 			/* Slides on the left */
-			.CSS_slideshow[data-show-buttons="true"] label:before {
+			.CSS_slideshow[data-show-buttons="true"] label:before 
+			{
 				right: -100%;
                 opacity: 0;
 				/* Styling */
 				content: '>'; /* next */
 			}
-			.CSS_slideshow[data-show-buttons="true"] label:after {
+			.CSS_slideshow[data-show-buttons="true"] label:after 
+			{
 				left: 100%;
 				opacity: 1;
 				/* Styling */
 				content: '<'; /* previous */
 			}
 			/* Slides on the right */
-			.CSS_slideshow[data-show-buttons="true"] input:checked ~ label:before {
+			.CSS_slideshow[data-show-buttons="true"] input:checked ~ label:before 
+			{
 				right: 100%;
 				opacity: 1;
 			}
-			.CSS_slideshow[data-show-buttons="true"] input:checked ~ label:after {
+			.CSS_slideshow[data-show-buttons="true"] input:checked ~ label:after 
+			{
 				left: -100%;
                 opacity: 0;
 				cursor: default;
 			}
 			/* Active slide */
-			.CSS_slideshow[data-show-buttons="true"] input:checked + label:before {
+			.CSS_slideshow[data-show-buttons="true"] input:checked + label:before 
+			{
 				right: 0;
 				opacity: 0;
 				cursor: default;
 			}
-			.CSS_slideshow[data-show-buttons="true"] input:checked + label:after {
+			.CSS_slideshow[data-show-buttons="true"] input:checked + label:after 
+			{
 				left: 0;
 			}
 			/* Buttons positioning */
-			.CSS_slideshow[data-show-buttons="true"] label:after {
+			.CSS_slideshow[data-show-buttons="true"] label:after 
+			{
 				z-index: 3; /* move "previous" buttons forward... */
 			}
-			.CSS_slideshow[data-show-buttons="true"] input:checked ~ label:after {
+			.CSS_slideshow[data-show-buttons="true"] input:checked ~ label:after 
+			{
 				z-index: 1; /* ...except the one for an active slide */
 			}
-			.CSS_slideshow[data-show-buttons="true"] input:checked + label + input + label:before {
+			.CSS_slideshow[data-show-buttons="true"] input:checked + label + input + label:before 
+			{
 				z-index: 3; /* move "next" button one slide ahead forward... */
 			}
 			/* Wrap arrows */
@@ -288,17 +325,112 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
                 padding-left: 14px;
                 width: 46px;
 			}
-			.CSS_slideshow[data-show-buttons="true"][data-show-wrap-buttons="true"] label:first-of-type:before {
+			.CSS_slideshow[data-show-buttons="true"][data-show-wrap-buttons="true"] label:first-of-type:before 
+			{
 				content: '<<'; /* jump to first */
 				right: 0 !important;
 			}
-			.CSS_slideshow[data-show-buttons="true"][data-show-wrap-buttons="true"] input:not(:checked) + label:first-of-type:before {
+			.CSS_slideshow[data-show-buttons="true"][data-show-wrap-buttons="true"] input:not(:checked) + label:first-of-type:before 
+			{
 				right: -100% !important;
 			}
 			.CSS_slideshow[data-show-buttons="true"][data-show-wrap-buttons="true"] label:last-of-type:after {
 				content: '>>'; /* jump to last */
 				left: 0 !important;
 			}
-			.CSS_slideshow[data-show-buttons="true"][data-show-wrap-buttons="true"] input:not(:checked) + label:last-of-type:after {
+			.CSS_slideshow[data-show-buttons="true"][data-show-wrap-buttons="true"] input:not(:checked) + label:last-of-type:after 
+			{
 				left: -100% !important;
 			}
+			
+.myButton2 
+{
+	-moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	-webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+	background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
+	background-color:#33bdef;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton2:hover 
+{
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+	background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
+	background-color:#019ad2;
+}
+.myButton2:active
+{
+	position:relative;
+	top:2px;
+}
+
+.myButton1 
+{
+	-moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	-webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	box-shadow: 1px 2px 1px 1px #f0f7fa;
+	background: rgb(1,154,210); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(1,154,210,1) 27%, rgba(51,189,239,1) 60%, rgba(51,189,239,1) 60%, rgba(51,189,239,1) 86%, rgba(51,189,239,1) 86%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(27%,rgba(1,154,210,1)), color-stop(60%,rgba(51,189,239,1)), color-stop(60%,rgba(51,189,239,1)), color-stop(86%,rgba(51,189,239,1)), color-stop(86%,rgba(51,189,239,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(1,154,210,1) 27%,rgba(51,189,239,1) 60%,rgba(51,189,239,1) 60%,rgba(51,189,239,1) 86%,rgba(51,189,239,1) 86%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(1,154,210,1) 27%,rgba(51,189,239,1) 60%,rgba(51,189,239,1) 60%,rgba(51,189,239,1) 86%,rgba(51,189,239,1) 86%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(1,154,210,1) 27%,rgba(51,189,239,1) 60%,rgba(51,189,239,1) 60%,rgba(51,189,239,1) 86%,rgba(51,189,239,1) 86%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(1,154,210,1) 27%,rgba(51,189,239,1) 60%,rgba(51,189,239,1) 60%,rgba(51,189,239,1) 86%,rgba(51,189,239,1) 86%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0 ); /* IE6-9 */
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton1:hover 
+{
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+	background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
+	background-color:#33bdef;
+}
+.myButton1:active 
+{
+	position:relative;
+	top:2px;
+}
+
+
+
+
