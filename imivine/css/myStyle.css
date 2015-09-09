@@ -1,0 +1,50 @@
+body
+{
+	background: url(../img/poza1.jpg) no-repeat center center fixed;
+	clear:bouth;
+}
+
+#header1
+{
+	text-align:center;
+	font-size:30px;
+	font-family: 'Candal', sans-serif;
+	margin:0 auto;
+	width:740px;
+	height:230px;
+	opacity:0.99;
+	background-image:url(http://www.mmogames.com/wp-content/uploads/2015/05/LoL-Banner.png);
+	background-repeat:no-repeat;
+	color:white;
+}
+.pageBody
+{
+	margin:0 auto;
+	width:1000px;
+	height:612px;
+	opacity:0.888;
+	display:table;
+}
+#yoyube
+{
+	display:table-cell;
+	width:560px;
+	float:left;
+	opacity:1.0 !important;
+}
+#text2
+{
+	display:table-cell;
+	width:430px;
+	float:left;
+	background-color:white;
+	border:1px solid;
+}
+#footer1
+{
+	margin:0 auto;
+	width:1000px;
+	height:90px;
+	background-color:blue;
+	opacity:0.5;
+}
